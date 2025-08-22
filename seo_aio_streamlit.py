@@ -185,6 +185,9 @@ from core.industry_detector import IndustryDetector, IndustryAnalysis
 from core.visualization import create_aio_score_chart_vertical
 from core.text_utils import detect_mojibake
 
+# Streamlitアプリケーション
+from core.analysis_engine import AnalysisEngine as CoreAnalysisEngine
+SEOAIOAnalyzer = CoreAnalysisEngine
 
 def add_corner(canvas, doc_obj) -> None:
     """Draw a small blue square on page corners."""
