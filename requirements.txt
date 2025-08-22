@@ -1,0 +1,13 @@
+streamlit==1.36.0
+plotly==5.23.0
+matplotlib==3.8.4
+beautifulsoup4==4.12.3
+tldextract==5.1.2
+reportlab==4.1.0
+openai==1.40.0
+python-dotenv==1.0.1
+requests==2.32.3
+lxml==5.2.2
+Pillow==10.4.0
+
+
