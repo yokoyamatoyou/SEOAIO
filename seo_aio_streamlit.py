@@ -576,7 +576,7 @@ class SEOAIOAnalyzer:
 
     def _calculate_content_score(self, wc, tr):
         w_sc = 10 if wc >= 600 else (8 if wc >= 400 else (6 if wc >= 300 else (4 if wc >= 200 else 2)))
-        r_sc = 10 if tr >= 25 else (8 if tr >= 20 else (6 if tr >= 15 else (4 if tr >= 10 else 2)))
+        r_sc = 10 if tr >= 20 else (8 if tr >= 15 else (6 if tr >= 10 else (4 if tr >= 5 else 2)))
         return w_sc * 0.7 + r_sc * 0.3
 
     def _calculate_links_score(self, int_l, ext_l):
